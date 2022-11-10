@@ -4,10 +4,8 @@ struct_complex
  float real;
  float imaginary;
 };
-
 typedef struct complex Complexx;
 Complex input complex()
-
 {
   Complex c;
   printf("Enter eal and imaginary arts of complex numbers/n");
@@ -31,7 +29,6 @@ c.real=a.real+b.real
 c.imaginary=a.imaginary+b.imaginary
   return c
   }
-
 Complex add_n_complex(int n, Co c[n])
 {
   Complex sum={0,0};
