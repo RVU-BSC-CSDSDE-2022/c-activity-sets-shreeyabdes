@@ -22,7 +22,6 @@ Point input_point()
 }
 Line input_line()
 { Line l;
-  Point p1,p2;
   l.p1= input_point();
   l.p2= input_point();
   return l;
