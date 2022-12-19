@@ -21,7 +21,7 @@ int main()
 
 int has_nice_name( char *c)
 {
- int i=0, countv=0, countc=0, flag=0;
+ int i=0, countv=0, countc=0, res=0;
   for(i=0; c[i]!='\0'; i++)
     {
       if ((c[i]=='a') || (c[i]=='A') || (c[i]=='e') || (c[i]=='E') || (c[i]=='i') || (c[i]=='I') || (c[i]=='o') || (c[i]=='O') || (c[i]=='u') || (c[i]=='U'))
@@ -31,9 +31,9 @@ int has_nice_name( char *c)
       else 
       countc++;
       if (countv==2 && countc==2)
-        return flag=1;
+        return res=1;
     }
-  return flag;
+  return res;
 }
 
 void output(int res)
