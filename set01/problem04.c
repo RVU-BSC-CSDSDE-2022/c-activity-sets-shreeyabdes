@@ -18,6 +18,6 @@ int main()
 int a,b,c;
 input(&a,&b);
 add(a,b,&c);
-printf("The sum of %d and %d is %d",x,y,z);
+printf("The sum of %d and %d is %d",a,b,c);
 return 0;
 }

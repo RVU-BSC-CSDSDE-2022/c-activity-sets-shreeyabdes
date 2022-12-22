@@ -15,9 +15,9 @@ void add(int a,int b, int *c)
 int main() 
 
 {
-int a,b,c;
-input(&a,&b);
-add(a,b,&c);
+int x,y,z;
+input(&x,&y);
+add(x,y,&z);
 printf("The sum of %d and %d is %d",x,y,z);
 return 0;
 }
