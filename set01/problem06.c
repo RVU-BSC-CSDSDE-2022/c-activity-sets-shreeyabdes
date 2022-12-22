@@ -4,16 +4,15 @@ void input(int *a, int *b, int *c)
   
   printf("Enter the 3 numbers\n");
   scanf("%d %d %d",a,b,c);
-  
 }
 int largest(int a,int b,int c)
 {
-  if(a>b && a>c){
-    return a;}
-  else if(b>a && b>c){
-    return b;}
-  else {
-    return c;}
+  if(a>b && a>c)
+    return a;
+  else if(b>a && b>c)
+    return b;
+  else 
+    return c;
 }
 
 int main()

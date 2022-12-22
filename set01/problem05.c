@@ -22,7 +22,7 @@ int main()
   a = input ();
   b = input ();
   c = input ();
-  largest = compare ( a,b,b);
+  largest = compare ( a,b,c);
   printf(" the largest of %d,%d and %d is %d\n" , a,b,c, largest);
   return 0;
 }
