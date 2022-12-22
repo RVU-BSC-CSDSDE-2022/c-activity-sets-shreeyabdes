@@ -1,10 +1,10 @@
 #include <stdio.h>
 int input()
 {
-  int a;
+  int n;
   printf("Enter a number");
-  scanf("%d",&a);
-  return a;
+  scanf("%d",&n);
+  return n;
 }
 
 int compare(int a, int b, int c)
@@ -18,11 +18,11 @@ if (a>b && a>c)
   }
 int main()
 {
-  int x,y,z, largest;
-  x = input ();
-  y = input ();
-  z = input ();
-  largest = compare ( x,y,z);
-  printf(" the largest of %d,%d and %d is %d\n" , x,y,z, largest);
+  int a,b,c, largest;
+  a = input ();
+  b = input ();
+  c = input ();
+  largest = compare ( a,b,b);
+  printf(" the largest of %d,%d and %d is %d\n" , a,b,c, largest);
   return 0;
 }
